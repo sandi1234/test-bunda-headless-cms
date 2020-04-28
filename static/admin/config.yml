@@ -143,3 +143,41 @@ collections:
             }
           - { label: 'isPage', name: 'page', widget: 'hidden', default: true }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+
+
+
+    #Home (English)
+    - name: 'home-en' # Used in routes, e.g., /admin/collections/blog
+      label: 'Home (English)' # Used in the UI
+      folder: 'home-en' # The path to the folder where the documents are stored
+      slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+      extension: 'en.md'
+      format: frontmatter
+      fields: # The fields for each document, usually in front matter
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+                label: 'Date',
+                name: 'date',
+                widget: 'datetime',
+                format: 'YYYY-MM-DD hh:mm:ss',
+            }
+          - { label: 'isPage', name: 'page', widget: 'hidden', default: true }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      #Home (English)
+    - name: 'home-pt' # Used in routes, e.g., /admin/collections/blog
+      label: 'Home (Portuguese)' # Used in the UI
+      folder: 'home-pt' # The path to the folder where the documents are stored
+      slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+      extension: 'en.md'
+      format: frontmatter
+      fields: # The fields for each document, usually in front matter
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - {
+                label: 'Date',
+                name: 'date',
+                widget: 'datetime',
+                format: 'YYYY-MM-DD hh:mm:ss',
+            }
+          - { label: 'isPage', name: 'page', widget: 'hidden', default: true }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
