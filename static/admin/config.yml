@@ -150,6 +150,7 @@ collections:
     - name: 'home-en' # Used in routes, e.g., /admin/collections/blog
       label: 'Home (English)' # Used in the UI
       folder: 'home-en' # The path to the folder where the documents are stored
+      create: true # Allow users to create new documents in this collection
       slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
       extension: 'en.md'
       format: frontmatter
@@ -168,6 +169,7 @@ collections:
     - name: 'home-pt' # Used in routes, e.g., /admin/collections/blog
       label: 'Home (Portuguese)' # Used in the UI
       folder: 'home-pt' # The path to the folder where the documents are stored
+      create: true # Allow users to create new documents in this collection
       slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
       extension: 'en.md'
       format: frontmatter
