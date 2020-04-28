@@ -1,9 +1,10 @@
-import React from 'react';
-
+import React, {Fragment} from 'react';
 import * as S from './styled';
+
 
 const Languages = () => {
   return (
+    <Fragment>
     <S.LanguageWrapper>
       <S.LanguageItem>
         <S.LanguageLink to="/" hrefLang="en">
@@ -16,6 +17,8 @@ const Languages = () => {
         </S.LanguageLink>
       </S.LanguageItem>
     </S.LanguageWrapper>
+    </Fragment>
+
   );
 };
 

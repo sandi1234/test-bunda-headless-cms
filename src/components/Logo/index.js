@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from '../../images/logo-iceberg.svg';
+import bundaLogo from '../../images/bunda-logo.png';
 
 const Logo = () => {
-  return <img src={logo} alt="Iceberg Logo" />;
+  return <img src={bundaLogo} alt="Iceberg Logo" />;
 };
 
 export default Logo;

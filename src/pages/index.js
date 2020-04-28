@@ -25,12 +25,11 @@ const Index = ({ data: { allMarkdownRemark } }) => {
     <div className="homepage">
       <SEO title="Home" />
       <TitlePage text={hello} />
-      <p>{subline}</p>
+      <p>{subline} <h1>Trolmand</h1></p>
       <hr style={{ margin: `2rem 0` }} />
       <h2>
         <strong>{latestPosts}</strong>
       </h2>
-
       <br />
 
       <S.ListWrapper>
